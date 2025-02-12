@@ -68,7 +68,7 @@ For example:
 
 ## 模型架構 | Model Architecture
 
-我們使用 Keras 建立了一個卷積神經網絡（CNN），其架構如下：
+使用 Keras 建立了一個卷積神經網絡（CNN），其架構如下：
 
 We built a Convolutional Neural Network (CNN) with Keras, and its architecture is as follows:
 
@@ -92,7 +92,7 @@ model = Sequential([
 
 We used **80%** of the data for training the model and **20%** for validation. During training, we used the **Adam** optimizer and **cross-entropy loss function**. The model was trained for **50** epochs.
 
-訓練後，我們在測試集上評估模型，結果顯示測試準確度達到了 **95%**。
+訓練後，在測試集上評估模型，結果顯示測試準確度達到了 **95%**。
 
 After training, we evaluated the model on the test set, and the result showed that the test accuracy reached **95%**.
 
@@ -104,7 +104,7 @@ history = model.fit(X_train, y_train, epochs=50, batch_size=32, validation_data=
 
 ### 損失和準確度圖表 | Loss and Accuracy Plots
 
-在訓練過程中，我們繪製了訓練集和驗證集的損失與準確度曲線，來分析模型的訓練過程。
+在訓練過程中，繪製了訓練集和驗證集的損失與準確度曲線，來分析模型的訓練過程。
 
 During the training process, we plotted the loss and accuracy curves for the training and validation sets to analyze the model's training process.
 
@@ -143,6 +143,6 @@ Although the model accuracy has reached **95%**, there are still ways to improve
 
 ## 結論 | Conclusion
 
-這個專案展示了深度學習在晶圓缺陷檢測中的應用。模型已經達到 **95%** 的測試準確度，這表明它在此任務中表現出色。未來，我們可以進一步優化模型，並將其應用於半導體製造業中的實際場景中。
+這個專案展示了深度學習在晶圓缺陷檢測中的應用。模型已經達到 **95%** 的測試準確度，這表明它在此任務中表現出色。未來，可以進一步優化模型，並將其應用於半導體製造業中的實際場景中。
 
 This project demonstrates the application of deep learning in silicon wafer defect detection. The model has achieved **95%** test accuracy, indicating its excellent performance on this task. In the future, we can further optimize the model and apply it to real-world scenarios in the semiconductor manufacturing industry.
