@@ -15,7 +15,7 @@ This project aims to classify silicon wafer images into two categories:
 - **Defective** (e.g., wafers with scratches or cracks)
 - **Non-defective** (perfect wafers without obvious defects)
 
-我們使用了卷積神經網絡（CNN）結合 TensorFlow 和 Keras 來訓練模型，並在測試數據集上進行評估。
+使用了卷積神經網絡（CNN）結合 TensorFlow 和 Keras 來訓練模型，並在測試數據集上進行評估。
 
 We used a Convolutional Neural Network (CNN) with TensorFlow and Keras to train the model and evaluate it on the test dataset.
 
