@@ -30,7 +30,6 @@ pip install tensorflow
 pip install numpy
 pip install matplotlib
 pip install opencv-python
-pip install scikit-learn
 ```
 
 ## 數據集 | Dataset
